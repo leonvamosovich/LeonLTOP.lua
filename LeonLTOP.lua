@@ -86,4 +86,4 @@ UIS.InputChanged:Connect(function(input) if dragging and ( input.UserInputType =
 	)
 end
 end)
-UIS.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = false end end) </КОД>
+UIS.InputEnded:Connect(function(input) if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = false end end)
